@@ -19,4 +19,5 @@ root.render(
   </BrowserRouter>
 );
 ```
+#### regresamos al **App.js** para configurar las **rutas**
 
