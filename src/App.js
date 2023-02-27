@@ -6,6 +6,7 @@ import { Navbar } from './02-Links/Navbar';
 function App() {
   return (
     <Routes>
+      <Navbar></Navbar>
       <Route path="/" element={<Home></Home>}></Route>
       <Route path="/about" element={<About></About>}></Route>
     </Routes>
