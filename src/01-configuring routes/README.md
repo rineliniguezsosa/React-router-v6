@@ -21,3 +21,23 @@ root.render(
 ```
 #### regresamos al **App.js** para configurar las **rutas**
 
+```js
+import { Routes,Route } from 'react-router-dom' //1) importamos Routes y Route
+import { About } from './01-configuring routes/components/About';
+import { Home } from './01-configuring routes/components/Home';
+
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home></Home>}></Route> //2)definimos las rutas
+      <Route path="/about" element={<About></About>}></Route>
+    </Routes>
+  );
+}
+
+export default App;
+
+```
+> **Route** recibe los parametros 
+ **path="/home"** como la ruta en el navegador y **element=`{<Home/>}`** como el elemento o componente renderizar
