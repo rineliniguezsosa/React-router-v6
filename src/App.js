@@ -13,6 +13,7 @@ function App() {
       <Route path="/" element={<Home></Home>}></Route>
       <Route path="/about" element={<About></About>}></Route>
       <Route path="/orden" element={<Orden></Orden>}></Route>
+      <Route path="*" element={<NoMatch></NoMatch>}></Route>
     </Routes>
     </>
   );
