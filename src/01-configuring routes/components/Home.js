@@ -6,7 +6,8 @@ export const Home = () => {
   return (
     <>
     <span>Home</span>
-    <button className="btn btn-primary">Ordenar</button>
+    <br></br>
+    <button onClick={()=> navigate('/orden')} className="btn btn-primary">Ordenar</button>
     </>
   )
 }
