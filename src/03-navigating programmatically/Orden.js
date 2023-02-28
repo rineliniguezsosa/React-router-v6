@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom"
 
 export const Orden = () => {
+  const navigate = useNavigate()
   return (
     <>
     <span>Orden realizada</span>
