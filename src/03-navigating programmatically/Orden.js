@@ -2,6 +2,8 @@
 
 export const Orden = () => {
   return (
-    <div>Orden</div>
+    <>
+    <span>Orden realizada</span>
+    </>
   )
 }
