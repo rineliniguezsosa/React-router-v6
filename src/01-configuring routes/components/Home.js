@@ -7,7 +7,7 @@ export const Home = () => {
     <>
     <span>Home</span>
     <br></br>
-    <button onClick={()=> navigate('/orden')} className="btn btn-primary">Ordenar</button>
+    <button onClick={()=> navigate('/orden',{replace:true})} className="btn btn-primary">Ordenar</button>
     </>
   )
 }
