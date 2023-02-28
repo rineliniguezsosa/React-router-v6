@@ -14,7 +14,7 @@ export const Navbar = () => {
                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                <NavLink className={({isActive})=> `${(isActive)} ? nav-link : ''`} to="/about">About</NavLink>
+                <NavLink className={({isActive})=> `${isActive ? 'nav-link active' : ''}`} to="/about">About</NavLink>
                 </li>
             </ul>
             </div>
