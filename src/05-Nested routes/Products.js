@@ -7,7 +7,7 @@ export const Products = () => {
             <input type="text" placeholder='buscar' className='form-control'></input>
         </div>
         <nav>
-
+            <Link to="/caracteristicas">Caracteristicas</Link>
         </nav>
     </>
   )
