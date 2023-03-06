@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Products = () => {
   return (
-    <div>Products</div>
+    <div>
+        <input type="text" placeholder='buscar' className='form-control'></input>
+    </div>
   )
 }
