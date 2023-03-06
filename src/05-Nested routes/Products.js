@@ -11,6 +11,7 @@ export const Products = () => {
 
             <Link to="nuevo">nuevo</Link>
         </nav>
+        <Outlet></Outlet>
     </>
   )
 }
