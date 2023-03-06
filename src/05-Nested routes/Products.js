@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link,Outlet } from 'react-router-dom'
 
 export const Products = () => {
   return (
@@ -7,9 +7,9 @@ export const Products = () => {
             <input type="text" placeholder='buscar' className='form-control'></input>
         </div>
         <nav>
-            <Link to="/caracteristicas">Caracteristicas</Link>
+            <Link to="caracteristicas">Caracteristicas</Link>
 
-            <Link to="/nuevo">nuevo</Link>
+            <Link to="nuevo">nuevo</Link>
         </nav>
     </>
   )
