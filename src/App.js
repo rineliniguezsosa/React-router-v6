@@ -4,6 +4,8 @@ import { Home } from './01-configuring routes/components/Home';
 import { Navbar } from './02-Links/Navbar';
 import { Orden } from './03-navigating programmatically/Orden';
 import { NoMatch } from './04-No Match Route/NoMatch';
+import { Products } from './05-Nested routes/Products';
+
 
 function App() {
   return (
