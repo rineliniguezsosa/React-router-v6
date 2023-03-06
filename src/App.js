@@ -15,9 +15,12 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home></Home>}></Route>
-      <Route path="/about" element={<About></About>}></Route>
-      <Route path="/orden" element={<Orden></Orden>}></Route>
-      <Route path="/productos" element={<Products></Products>}></Route>
+      <Route path="about" element={<About></About>}></Route>
+      <Route path="orden" element={<Orden></Orden>}></Route>
+      <Route path="productos" element={<Products></Products>}>
+        <Route path="caracteristicas" element={<Caracteristicas></Caracteristicas>}></Route>
+        <Route path="nuevo" element={<Nuevo></Nuevo>}></Route>
+      </Route>
       <Route path="*" element={<NoMatch></NoMatch>}></Route>
     </Routes>
     </>
