@@ -19,6 +19,7 @@ function App() {
       <Route path="orden" element={<Orden></Orden>}></Route>
       <Route path="productos" element={<Products></Products>}>
         <Route index element={<Caracteristicas></Caracteristicas>}></Route>
+        {/*prop index ruta predeterminada */}
         <Route path="caracteristicas" element={<Caracteristicas></Caracteristicas>}></Route>
         <Route path="nuevo" element={<Nuevo></Nuevo>}></Route>
         {/* RUTAS ANIDADAS */}
