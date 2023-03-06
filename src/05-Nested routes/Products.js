@@ -8,6 +8,8 @@ export const Products = () => {
         </div>
         <nav>
             <Link to="/caracteristicas">Caracteristicas</Link>
+
+            <Link to="/nuevo">nuevo</Link>
         </nav>
     </>
   )
