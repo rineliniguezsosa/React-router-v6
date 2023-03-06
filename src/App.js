@@ -5,6 +5,7 @@ import { Navbar } from './02-Links/Navbar';
 import { Orden } from './03-navigating programmatically/Orden';
 import { NoMatch } from './04-No Match Route/NoMatch';
 import { Caracteristicas } from './05-Nested routes/Caracteristicas';
+import { Nuevo } from './05-Nested routes/Nuevo';
 import { Products } from './05-Nested routes/Products';
 
 
