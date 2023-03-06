@@ -12,6 +12,7 @@ export const Products = () => {
             <Link to="nuevo">nuevo</Link>
         </nav>
         <Outlet></Outlet>
+        {/* <Outlet/> representara las rutas secundarias ó anidadas */}
     </>
   )
 }
