@@ -14,10 +14,10 @@ export const Navbar = () => {
                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                <NavLink className={({isActive})=> `${isActive ? 'active' : ''} nav-link`} to="/about">About</NavLink>
+                <NavLink className={({isActive})=> `${isActive ? 'active' : ''} nav-link`} to="about">About</NavLink>
                 </li>
                 <li className="nav-item">
-                <NavLink className={({isActive})=> `${isActive ? 'active' : ''} nav-link`} to="/productos">Productos</NavLink>
+                <NavLink className={({isActive})=> `${isActive ? 'active' : ''} nav-link`} to="productos">Productos</NavLink>
                 </li>
             </ul>
             </div>
