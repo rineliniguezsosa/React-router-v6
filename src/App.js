@@ -7,6 +7,7 @@ import { NoMatch } from './04-No Match Route/NoMatch';
 import { Caracteristicas } from './05-Nested routes/Caracteristicas';
 import { Nuevo } from './05-Nested routes/Nuevo';
 import { Products } from './05-Nested routes/Products';
+import { Detallesusuario } from './06-Dinamic routes/Detallesusuario';
 import { Usuarios } from './06-Dinamic routes/Usuarios';
 
 
