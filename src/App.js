@@ -27,7 +27,11 @@ function App() {
         {/* RUTAS ANIDADAS */}
       </Route>
       <Route path="*" element={<NoMatch></NoMatch>}></Route>
+
+      {/* DINAMIC ROUTES */}
       <Route path="usuarios" element={<Usuarios></Usuarios>}></Route>
+      <Route path="usuarios/:userId" element={<Detallesusuario></Detallesusuario>}></Route>
+
     </Routes>
     </>
   );
