@@ -26,6 +26,7 @@ function App() {
         {/* RUTAS ANIDADAS */}
       </Route>
       <Route path="*" element={<NoMatch></NoMatch>}></Route>
+      <Route path="usuarios" element={<Usuarios></Usuarios>}></Route>
     </Routes>
     </>
   );
