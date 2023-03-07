@@ -6,6 +6,8 @@ export const Usuarios = () => {
         <h2>Rinel</h2>
         <h2>Rolando</h2>
         <h2>Merly</h2>
+
+        <Outlet></Outlet>
     </>
   )
 }
