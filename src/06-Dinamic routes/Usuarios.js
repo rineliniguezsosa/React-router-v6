@@ -8,6 +8,9 @@ import { Outlet,useSearchParams } from "react-router-dom"
    para actualizarlos (setSearchParams)
 */
 export const Usuarios = () => {
+
+  const [searchParams,setSearchParams] = useSearchParams()
+
   return (
     <>
         <h2>Rinel</h2>
