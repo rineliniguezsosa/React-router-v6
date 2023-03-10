@@ -21,7 +21,7 @@ export const Usuarios = () => {
 
         <div>
           <button onClick={()=> setSearchParams({filtro:'activo'}) }>Activar usuarios</button>
-          <button>Resetear filtros</button>
+          <button onClick={()=> setSearchParams({}) }>Resetear filtros</button>
         </div>
     </>
   )
