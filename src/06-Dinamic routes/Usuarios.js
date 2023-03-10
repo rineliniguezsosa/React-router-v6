@@ -1,5 +1,12 @@
 import { Outlet,useSearchParams } from "react-router-dom"
+/*
+  useSearchParams: se utiliza para leer y modificar la cadena de consulta 
+  en la URL de la ubicación actual.
 
+   useSearchParams devuelve una matriz de dos valores: los parámetros 
+   de búsqueda de la ubicación actual (searchParams) y una función que puede usarse
+   para actualizarlos (setSearchParams)
+*/
 export const Usuarios = () => {
   return (
     <>
