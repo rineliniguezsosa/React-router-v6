@@ -10,7 +10,7 @@ import { Outlet,useSearchParams } from "react-router-dom"
 export const Usuarios = () => {
 
   const [searchParams,setSearchParams] = useSearchParams()
-
+  console.log(searchParams.get('filtro'))
   return (
     <>
         <h2>Rinel</h2>
@@ -20,7 +20,7 @@ export const Usuarios = () => {
         <Outlet></Outlet>
 
         <div>
-          <button>Activar usuarios</button>
+          <button onClick={()=> setSearchParams({filtro:'activo'}) }>Activar usuarios</button>
           <button>Resetear filtros</button>
         </div>
     </>
