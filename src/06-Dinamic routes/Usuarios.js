@@ -8,6 +8,11 @@ export const Usuarios = () => {
         <h2>Merly</h2>
 
         <Outlet></Outlet>
+
+        <div>
+          <button>Activar usuarios</button>
+          <button>Resetear filtros</button>
+        </div>
     </>
   )
 }
