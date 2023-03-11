@@ -10,6 +10,7 @@ import { Nuevo } from './05-Nested routes/Nuevo';
 import { Products } from './05-Nested routes/Products';
 import { Detallesusuario } from './06-Dinamic routes/Detallesusuario';
 import { Usuarios } from './06-Dinamic routes/Usuarios';
+const LazyAbout = React.lazy(()=> import('./01-configuring routes/components/About'))
 
 
 function App() {
@@ -18,7 +19,13 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home></Home>}></Route>
-      <Route path="about" element={<About></About>}></Route>
+      <Route 
+        path="about" 
+        element={
+        <React.Suspense fallback="cargando ...">
+        <LazyAbout></LazyAbout>
+        </React.Suspense>}>
+      </Route>
       <Route path="orden" element={<Orden></Orden>}></Route>
       <Route path="productos" element={<Products></Products>}>
         <Route index element={<Caracteristicas></Caracteristicas>}></Route>
