@@ -1,6 +1,6 @@
 
 
-export const About = () => {
+const About = () => {
   return (
     <div>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id eros tempus, ullamcorper nibh sed, condimentum sem. Proin faucibus massa mi, quis efficitur nibh aliquam sit amet. Suspendisse vel neque eget tortor euismod ultrices. Proin malesuada varius tellus vel rhoncus. Morbi ut dui laoreet, sodales neque a, vestibulum felis. Duis pellentesque faucibus sem id condimentum. Suspendisse enim arcu, facilisis id eros id, malesuada gravida orci. Sed ut magna dui. Ut efficitur, nisl ac pellentesque lobortis, nisl dui gravida sem, ut convallis leo sapien at enim. Proin a venenatis nibh. Proin sit amet lorem libero. Nunc consequat porta nisi id fermentum. Sed pharetra sapien iaculis dolor mattis viverra. Nunc faucibus felis non dui feugiat auctor. Etiam ut dapibus nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
